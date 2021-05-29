@@ -9,7 +9,7 @@ const Orders = ({ orders, session }) => {
   return (
     <div>
       <Head>
-        <title>Amazon-Next - Success</title>
+        <title>Amazon-Next - Orders</title>
       </Head>
 
       <Header />
