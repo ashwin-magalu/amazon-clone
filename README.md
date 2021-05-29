@@ -13,6 +13,6 @@ or
     Please note: this key will expire after 90 days, at which point you'll need to re-authenticate.
 6. Your pairing code is: some-string
 7. Run Command: stripe listen --forward-to localhost:3000/api/webhook
-8. Copy the secret and paste it in .env for STRIPE_SIGNING_SECRET
+8. Copy the secret and paste it in .env for STRIPE_SIGNING_SECRET. In production build, get this Secret key in stripe dashboard > developers > webhooks > create endpoint > add web hook url and generate secret key.
 9. Create webhook.js file in api folder
 10. Head to firebase project settings > service accounts > generate new private key > download and move it to root folder and rename it as permissions.json
